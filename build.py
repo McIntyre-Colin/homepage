@@ -13,7 +13,7 @@ index = header + index + footer
 projects = header + projects + footer
 resume = header + resume + footer
 
-
+#generrating webpage
 open('./docs/index.html', 'w+').write(index)
 open('./docs/projects.html', 'w+').write(projects)
 open('./docs/resume.html', 'w+').write(resume)

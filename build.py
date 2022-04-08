@@ -8,12 +8,12 @@ index = open('./content/index.html').read()
 projects = open('./content/projects.html').read()
 resume = open('./content/resume.html').read()
 
-#Writing to file
+#Combining into one variable
 index = header + index + footer
 projects = header + projects + footer
 resume = header + resume + footer
 
-
+#Crwating webpages
 open('./docs/index.html', 'w+').write(index)
 open('./docs/projects.html', 'w+').write(projects)
 open('./docs/resume.html', 'w+').write(resume)
